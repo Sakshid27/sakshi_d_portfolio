@@ -6,25 +6,48 @@
     <title>Sakshi Dube - Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #222;
             color: #fff;
-            padding: 20px;
+            padding: 60px 0;
             text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 18px;
+            color: #ddd;
         }
 
         nav {
             display: flex;
             justify-content: center;
             background-color: #444;
-            padding: 10px 0;
+            padding: 15px 0;
+            margin-top: 20px;
         }
 
         nav a {
@@ -33,7 +56,7 @@
             padding: 10px 20px;
             margin: 0 10px;
             background-color: #555;
-            border-radius: 5px;
+            border-radius: 25px;
             transition: background-color 0.3s;
         }
 
@@ -42,51 +65,55 @@
         }
 
         section {
-            padding: 20px;
+            padding: 30px;
             max-width: 1000px;
-            margin: auto;
+            margin: 20px auto;
             background-color: #fff;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
-            color: #333;
-            border-bottom: 2px solid #333;
+            color: #444;
+            border-bottom: 2px solid #444;
             padding-bottom: 10px;
+            margin-bottom: 20px;
         }
 
-        p {
-            line-height: 1.6;
+        p, ul {
+            line-height: 1.8;
         }
 
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
         ul li {
-            background: #eee;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #333;
+            background-color: #222;
             color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
 
     <header>
+        <img src="C:\Users\saksh\OneDrive\Pictures\1713792512978.jpg" alt="Sakshi Dube">
         <h1>Sakshi Dube</h1>
         <p>Computer Engineering Student | Aspiring Cloud Engineer</p>
     </header>
@@ -100,14 +127,16 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a third-year computer engineering student with a strong interest in cloud computing and full-stack development. I have experience working on various projects, including a comprehensive inventory and billing management system for an ice cream shop.</p>
-        <p>My goal is to further develop my skills in cloud technologies and become a proficient software engineer who can contribute to innovative projects.</p>
+        <p>I am a third-year computer engineering student with a passion for cloud computing and full-stack development. My experience includes working on projects that integrate modern technologies such as React, Node.js, and cloud-based solutions.</p>
+        <p>My career goals are focused on advancing in cloud technologies and becoming a proficient software engineer who drives innovation in software development.</p>
     </section>
 
     <section id="education">
         <h2>Education</h2>
         <ul>
             <li><strong>Bachelor of Computer Engineering</strong> - MIT Academy of Engineering (Expected 2026)</li>
+            <li><strong>Class 12th</strong> - Scored 71.68%</li>
+            <li><strong>Class 10th</strong> - Scored 88.70%</li>
         </ul>
     </section>
 
@@ -115,15 +144,15 @@
         <h2>Projects</h2>
         <ul>
             <li><strong>Ice Cream Shop Inventory and Billing Management</strong>: Developed a full-stack application using React.js, Node.js, Express.js, and MySQL.</li>
-            <li><strong>Product Management System</strong>: Built a React application for managing products, integrated with a backend API.</li>
-            <li><strong>Tax Planning and Optimization Tool</strong>: Currently working on a project focused on AI-driven tax planning and optimization strategies.</li>
+            <li><strong>Helmet and Number Plate Detection using YOLOv7</strong>: Developed a machine learning model for real-time detection of helmets and number plates using the YOLOv7 architecture.</li>
+            <li><strong>Assured Contract Farming System</strong>: Currently working on a project to provide farmers with stable market access through assured contracts.</li>
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: sakshi@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sakshi-dube/" target="_blank">linkedin.com/in/sakshi-dube</a></p>
+      
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sakshi-dube-9a9001289" target="_blank">linkedin.com/in/sakshi-dube</a></p>
     </section>
 
     <footer>
